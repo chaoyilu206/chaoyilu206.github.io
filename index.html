@@ -1,59 +1,167 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Website</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body>
-        <header id="main-header">
-            <div class="container">
-                <h1>My Website</h1>
-            </div>
-        </header>
-
-        <nav id="navbar">
-            <div class="container">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" 
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lucy's Portfolio</title>
+</head>
+<body>
+    <!-- Showcase & Navigator -->
+    <div id="showcase">
+        <header>
+            <nav class="cf">
+                <ul class="cf">
+                    <li><a href="#showcase">Overview</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experiences">Experiences</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-            </div>
-        </nav>
-
-        <section id="showcase">
-            <div class="container">
-                <h1>Lorem ipsum dolor sit amet 
-                    consectetur adipisicing elit. 
-                </h1>
-            </div>
-        </section>
-
-    <div class="container">
-        <section id="main">
-            <h1>Welcome</h1>
-            <p>Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit. 
-                Rem suscipit illo, facere nam 
-                rerum quibusdam totam, deleniti 
-                blanditiis, at odit incidunt cum 
-                aperiam aliquam vitae consequatur 
-                quos sunt? Harum, nisi.</p>
-        </section>
-        <aside id="sidebar">
-            <p>Lorem ipsum dolor sit amet 
-            consectetur adipisicing elit. 
-            Rem suscipit illo, facere nam 
-            rerum quibusdam totam, deleniti 
-            blanditiis, at odit incidunt cum 
-            aperiam aliquam vitae consequatur 
-            quos sunt? Harum, nisi.</p>    
-        </aside>
+                <a href="#" id="openup">Portfolio</a>
+            </nav>
+        </header>
+        <div class="section-main container">
+            <h1>LU Chaoyi</h1>
+            <h2>from Guangdong, China</h2>
+            <p class="lead hide-on-small">
+                Welcome! I'm Lucy Lu, a young explorer currently at 
+                The Chinese University of Hong Kong, Shenzhen. 
+                In this wonderful place, you may find all about me.
+                Wish you a great journey with me!
+            </p>
+        </div>
     </div>
+    
+    <!-- Education -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="education">
+                <div class="img">
+                    <img src="images/edu2.jpg" alt="">
+                </div>
+                <div>
+                    <h2>Education</h2>
+                    <p>I’m a sophomore at The Chinese 
+                        University of Hong Kong, Shenzhen. 
+                        Majoring in Data Science, I have 
+                        opportunities in interacting with 
+                        excellent professors in various areas 
+                        and in cooperating 
+                        with brilliant students in projects.</p>
+                    <hr>
+                    <a href="#" class="text-secondary">
+                        <i class="fas fa-chevron-right"></i> Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Experiences -->
+    <section id="experiences">
+        <div class="container">
+            <div class="experiences">
+                <h2>Experiences</h2>
+                <div class="experiences-cols">
+                    <div>
+                        <img class="img" src="images/photographer.JPG" alt="">
+                        <h3>As a Photographer</h3>
+                        <hr>
+                        <p class="hide-on-small">With photography a path for 
+                            discovery, I have worked as 
+                            a photography student assistant 
+                            for two years at PEU and UAC. 
+                            Participated in various large events
+                            and created works widely recognized
+                            and adopted officially.</p>
+                        <a href="#" class="text-light">
+                            <i class="fas fa-chevron-right"></i> Read More
+                        </a>
+                    </div>
+                    <div>
+                        <img class="img" src="images/international_1.jpg" alt="">
+                        <h3>As a Communicator</h3>
+                        <hr>
+                        <p class="hide-on-small">Through active communication 
+                            with international students 
+                            at campus, I helped them engage 
+                            in school life. While I studied abroad, 
+                            immersed in multi-cultural environment 
+                            built my inclusive characteristics.</p>
+                        <a href="#" class="text-light">
+                            <i class="fas fa-chevron-right"></i> Read More
+                        </a>
+                    </div>
+                    <div>
+                        <img class="img" src="images/badminton.JPG" alt="">
+                        <h3>As a Badminton Player</h3>
+                        <hr>
+                        <p class="hide-on-small">Having engaged in playing badminton 
+                            since I was 5 years old, I gained 
+                            self-confidence, persistence, and 
+                            honors at the 82-square-meter badminton 
+                            court.</p>
+                        <a href="#" class="text-light">
+                            <i class="fas fa-chevron-right"></i> Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer id="main-footer">
-        <p>Copyright &copy; 2019 My Website</p>
+    <!-- Works -->
+    <section id="works">
+        <div class="container">
+            <div class="works">
+                <div id="works-list">
+                    <ul><h2>Works</h2></ul>
+                    <ul><a href="#" class="text-secondary">Projects</a></ul>
+                    <ul><a href="#" class="text-secondary">Photos</a></ul>
+                    <ul><a href="#" class="text-secondary">Videos</a></ul>
+                    <ul><a href="#" class="text-secondary">Posters</a></ul>
+                </div>
+                <div>
+                    <img class="img" src="images/mockup1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact">
+                <div>
+                    <img src="images/mockup2.png" alt="">
+                    <ul><h2>Contact Me!</h2></ul>
+                    <ul>Email: chaoyilu@link.cuhk.edu.cn</ul>
+                    <ul></ul>
+                    <ul>Phone: (+86)13802514547</ul>
+                    <ul>Address: No.2001 Longxiang Road, Longgang District, Shenzhen, China</ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                Copyright &copy; 2019 Lucy's Portfolio
+            </div>
+        </div>
     </footer>
-    </body>
+
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js" 
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
+    crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    
+</body>
 </html>
